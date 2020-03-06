@@ -1,0 +1,124 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* https://jinmayamashita.github.io/
+   v1.0 | 20200307
+   License: none (public domain)
+*/
+
+/* My favorite composer of all time
+
+🇬🇧 David Lindup - https://en.wikipedia.org/wiki/David_Lindup
+🇬🇧 Alan Tew - https://en.wikipedia.org/wiki/Alan_Tew
+🇬🇧 Keith Mansfield - https://en.wikipedia.org/wiki/Keith_Mansfield
+🇺🇸 Raymond Scott - https://en.wikipedia.org/wiki/Raymond_Scott
+🇺🇸 Frank LoCrasto - http://www.franklocrasto.com/
+🇧🇷 Eumir Deodato - https://en.wikipedia.org/wiki/Eumir_Deodato
+🇧🇷 Laurindo Almeida - https://en.wikipedia.org/wiki/Laurindo_Almeida
+🇫🇷 François de Roubaix - https://en.wikipedia.org/wiki/Fran%C3%A7ois_de_Roubaix
+🇮🇹 Armando Trovajoli - https://en.wikipedia.org/wiki/Armando_Trovajoli
+🇮🇹 Piero Piccioni - https://en.wikipedia.org/wiki/Piero_Piccioni
+🇮🇹 Piero Umiliani - https://en.wikipedia.org/wiki/Piero_Umiliani
+🇮🇹 Stelvio Cipriani - https://en.wikipedia.org/wiki/Stelvio_Cipriani
+🇮🇹 Stelvio Cipriani - https://en.wikipedia.org/wiki/Stelvio_Cipriani
+🇯🇵 上野 耕路 - https://ja.wikipedia.org/wiki/%E4%B8%8A%E9%87%8E%E8%80%95%E8%B7%AF
+🇯🇵 小西 康陽 - https://ja.wikipedia.org/wiki/%E5%B0%8F%E8%A5%BF%E5%BA%B7%E9%99%BD
+*/
+
+html {
+	box-sizing: border-box;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  	font-family: -apple-system, 
+               	BlinkMacSystemFont, 
+               	"Segoe UI", 
+               	Roboto, 
+               	Helvetica,
+               	Arial,
+               	sans-serif,
+               	"Apple Color Emoji",
+               	"Segoe UI Emoji",
+               	"Segoe UI Symbol";
+}
+
+.jinmayamashita {
+	position: relative;
+	width: 237px;
+	height: 237px;
+	border: solid 6px black;
+	font-size: 48pt;
+	padding: 10px 17px;
+	font-weight:  600;
+	line-height: 105%;
+	box-sizing: border-box;
+}
+.jinmayamashita:before,
+.jinmayamashita:after {
+	content: "Jinma Yamashita";
+	font-size: 48pt;
+	position: absolute;
+}
+.jinmayamashita:before {
+	right: -20px;
+	top: 20px;
+}
+.jinmayamashita:after {
+	right: -19px;
+	top: 21px;
+}
